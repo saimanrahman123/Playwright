@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bingTest":"npx playwright test SRC/Test/Day1/T1_Bing_Search.spec.ts --headed --workers=1 --project=chromium --reporter=html",
+    "uspsTest":"npx playwright test SRC/Test/Day2/T1_MouseHover_Usps.spec.ts --headed --workers=1 --project=chromium --reporter=html",
+    "smokeSuite": "npx playwright test --grep @smoke src/test/* --headed --workers=1 --project=chromium --reporter=html"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
