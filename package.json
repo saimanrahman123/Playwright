@@ -10,7 +10,9 @@
     "bingTestloop":"npx playwright test SRC/Test/Day2/T2_Bing_Search_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html",
     "bingTestCB":"npx playwright test SRC/Test/Day1/T1_Bing_Search.spec.ts --headed --workers=1 --project=firefox --project=chrome --reporter=html",
     "uspsParallel": "npx playwright test SRC/Test/Day3/T1_usps_Multiple_Tests.spec.ts --headed --workers=2 --project=chrome --reporter=html",
-    "uspsParallelCB": "npx playwright test SRC/Test/Day3/T1_usps_Multiple_Tests.spec.ts --headed --workers=4 --project=chrome --project=firefox --reporter=html"
+    "uspsParallelCB": "npx playwright test SRC/Test/Day3/T1_usps_Multiple_Tests.spec.ts --headed --workers=4 --project=chrome --project=firefox --reporter=html",
+    "weightwatchers": "npx playwright test SRC/actionitems/WeightWatchersActionitem.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "bingsearchreusable": "npx playwright test SRC/Test/Day4/BingSearchReusable.spec.ts --headed --workers=1 --project=chrome --reporter=html"
 
 
 
