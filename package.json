@@ -17,6 +17,7 @@
     "UspsCapture": "npx playwright test SRC/actionitems/Usps_Capture.spec.ts --headed --workers=1 --project=chrome --reporter=html",
     "UHCInsurance": "npx playwright test SRC/actionitems/UHC_Insurance.spec.ts --headed --workers=1 --project=chrome --reporter=html",
     "UHC_Usps": "npx playwright test --grep @ai src/actionitems/* --workers=1 --project=chrome --reporter=html"
+    
   
 
 

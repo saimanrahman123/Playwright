@@ -9,6 +9,7 @@ test('dentist phone number @ai', async ({ page }) => {
     //await page.waitForTimeout(3000);
     //click on shop for a plan
     await clickByIndex (page, "//*[text()='Find a doctor']", 0, "Find a doctor");
+
    
 
     //click on search as a guest
@@ -16,6 +17,7 @@ test('dentist phone number @ai', async ({ page }) => {
 
     //click on dental directory link
     await click(page, "[aria-label='Dental Directory']", "Dental directory");
+    await page.waitForTimeout(3000);
 
     //click on medicaid link
     await clickByIndex(page, "//*[@class='sc-iugpza kDcyKX']", 3, "Medicaid plan");
